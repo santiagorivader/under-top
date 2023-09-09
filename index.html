@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            background-color: #333;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        nav img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        nav h1 {
+            color: white;
+            font-size: 24px;
+        }
+
+        .catalog-title {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .category-title {
+            text-align: center;
+            font-size: 28px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            color: #333;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .category-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            width: 250px;
+            height: 360px; /* Aumenté la altura de la card */
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            flex: 1; /* Permite que la imagen se expanda en la card */
+        }
+
+        .card p {
+            margin-bottom: 10px; /* Espacio para el precio */
+        }
+
+        .footer {
+            background-color: #333;
+            height: 40px;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        a{
+        text-decoration: none;
+        color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="imagenes/logo-modified.png" alt="Logo">
+        <h1>Suplementos Under-Top</h1>
+    </nav>
+    <div class="catalog-title">
+        <h2>Catálogo de Suplementos</h2>
+    </div>
+    <div class="content">
+        <div class="category-title">
+            <h3>Proteína</h3>
+        </div>
+        <div class="category-container">
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/star xl.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/gentech.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/body6.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/ena.png" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/hosh.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+          
+            <!-- Las otras cards de proteína -->
+        </div>
+        <div class="category-title">
+            <h3>Creatina</h3>
+        </div>
+       
+            <div class="category-container">
+                <div class="card">
+                    <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                    <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                    <img src="imagenes/crea star.png" alt="Suplemento 1">
+                    <p>Precio: $12.000</p>
+                </a>
+                </div>
+    
+                <div class="card">
+                    <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                    <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                    <img src="imagenes/crea bdoy.jpg" alt="Suplemento 1">
+                    <p>Precio: $12.000</p>
+                </a>
+                </div>
+    
+                <div class="card">
+                    <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                    <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                    <img src="imagenes/crea ena.jpg" alt="Suplemento 1">
+                    <p>Precio: $12.000</p>
+                </a>
+                </div>
+    
+                <div class="card">
+                    <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                    <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                    <img src="imagenes/crea star.png" alt="Suplemento 1">
+                    <p>Precio: $12.000</p>
+                </a>
+                </div>
+    
+                <div class="card">
+                    <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                    <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                    <img src="imagenes/gentech craeatian.png" alt="Suplemento 1">
+                    <p>Precio: $12.000</p>
+                </a>
+                </div>
+          
+            <!-- Las otras cards de creatina -->
+        </div>
+        <div class="category-title">
+            <h3>Pre-entreno</h3>
+        </div>
+        <div class="category-container">
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/preworrk ena.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/v8.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/preworrkbody.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/preworrkmervi.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <div class="card">
+                <a href="URL_DEL_SITIO_AL_QUE_DESEA_REDIRECCIONAR" target="_blank" rel="noopener noreferrer">
+                <h4>proteinna star nutritio 2lb (chocolate)</h4>
+                <img src="imagenes/cfor.jpg" alt="Suplemento 1">
+                <p>Precio: $12.000</p>
+            </a>
+            </div>
+
+            <!-- Las otras cards de pre-entreno -->
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contacto: santiagorivadera@hotmail.com.ar | Teléfono: 3521466165</p>
+    </div>
+</body>
+</html>
